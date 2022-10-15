@@ -1,28 +1,65 @@
-2022-07-19 10:33:10,493 - HRMS -INFO - Application opned Sucessfully
-2022-07-19 10:33:10,885 - HRMS -INFO - Done with Username and password
-2022-07-19 10:33:13,867 - HRMS -INFO - titleVerified Succesfully
-2022-07-19 10:59:12,548 - HRMS -INFO - Application opned Sucessfully
-2022-07-19 10:59:12,906 - HRMS -INFO - Done with Username and password
-2022-07-19 10:59:14,336 - HRMS -INFO - titleVerified Succesfully
-2022-07-19 11:11:42,141 - HRMS -INFO - Application opned Sucessfully
-2022-07-19 11:11:42,501 - HRMS -INFO - Done with Username and password
-2022-07-19 11:11:44,116 - HRMS -INFO - titleVerified Succesfully
-2022-07-19 11:12:18,809 - HRMS -INFO - Application opned Sucessfully
-2022-07-19 11:12:19,168 - HRMS -INFO - Done with Username and password
-2022-07-19 11:12:21,420 - HRMS -INFO - titleVerified Succesfully
-2022-07-19 11:17:33,211 - HRMS -INFO - Application opned Sucessfully
-2022-07-19 11:19:25,514 - HRMS -INFO - Application opned Sucessfully
-2022-07-19 11:19:25,890 - HRMS -INFO - Done with Username and password
-2022-07-19 11:19:27,302 - HRMS -INFO - titleVerified Succesfully
-2022-07-19 11:22:26,683 - HRMS -INFO - Application opned Sucessfully
-2022-07-19 11:22:27,074 - HRMS -INFO - Done with Username and password
-2022-07-19 11:22:28,379 - HRMS -INFO - titleVerified Succesfully
-2022-07-19 11:46:52,264 - HRMS -INFO - Application opned Sucessfully
-2022-07-19 11:46:52,561 - HRMS -INFO - Done with Username and password
-2022-07-19 11:46:53,659 - HRMS -INFO - titleVerified Succesfully
-2022-07-19 12:02:18,265 - HRMS -INFO - Application opned Sucessfully
-2022-07-19 12:02:18,628 - HRMS -INFO - Done with Username and password
-2022-07-19 12:02:21,357 - HRMS -INFO - titleVerified Succesfully
-2022-07-19 12:11:44,314 - HRMS -INFO - Application opned Sucessfully
-2022-07-19 12:11:44,719 - HRMS -INFO - Done with Username and password
-2022-07-19 12:11:47,295 - HRMS -INFO - titleVerified Succesfully
+2022-10-15 07:09:25,156 - HRMS -INFO - Application opned Sucessfully
+2022-10-15 07:09:27,637 - HRMS -INFO - Done with Username and password
+2022-10-15 07:09:42,634 - HRMS -INFO - Going to Add New Employee
+2022-10-15 07:10:17,154 - HRMS -INFO - Successfully Employee Added
+2022-10-15 07:11:46,329 - HRMS -INFO - Application opned Sucessfully
+2022-10-15 07:12:00,958 - HRMS -INFO - login Successfully
+2022-10-15 07:12:47,725 - HRMS -INFO - Application opned Sucessfully
+2022-10-15 07:12:56,708 - HRMS -INFO - Successfully Loged the Application
+2022-10-15 07:13:00,066 - HRMS -INFO - job title page opened
+2022-10-15 07:13:07,375 - HRMS -INFO - new Job created Successfully
+2022-10-15 07:13:25,773 - HRMS -INFO - Application opned Sucessfully
+2022-10-15 07:13:26,265 - HRMS -INFO - Done with Username and password
+2022-10-15 07:13:32,622 - HRMS -INFO - Going to Add New Employee
+2022-10-15 07:13:41,060 - HRMS -INFO - Successfully Employee Added
+2022-10-15 07:14:03,109 - HRMS -INFO - Application opned Sucessfully
+2022-10-15 07:14:06,381 - HRMS -INFO - login SUccessFully
+2022-10-15 07:14:18,958 - HRMS -INFO - searchEmployee done result displayed
+2022-10-15 07:14:20,599 - HRMS -INFO - Delete of Employee failed
+2022-10-15 07:14:58,589 - HRMS -INFO - Application opned Sucessfully
+2022-10-15 07:14:58,681 - HRMS -INFO - Application Opend SUccessfully
+2022-10-15 07:15:17,041 - HRMS -INFO - Login SUuccessfully
+2022-10-15 07:15:20,702 - HRMS -INFO - search with Employee firstName
+2022-10-15 07:15:23,130 - HRMS -INFO - Search done select deisplayed Employee
+2022-10-15 07:15:45,194 - HRMS -INFO - changes happend
+2022-10-15 07:16:02,217 - HRMS -INFO - Application opned Sucessfully
+2022-10-15 07:16:05,894 - HRMS -INFO - loging succesfuly
+2022-10-15 07:16:22,388 - HRMS -INFO - Edit EMployee page opened going to enter job Details
+2022-10-15 07:16:22,511 - HRMS -INFO - currently handlel job job profile page
+2022-10-15 07:16:22,739 - HRMS -INFO - selected the Job option from Left Menu
+2022-10-15 07:16:23,020 - HRMS -INFO - click Edit button
+2022-10-15 07:16:23,198 - HRMS -INFO - select Employee status full time:permenent
+2022-10-15 07:16:23,808 - HRMS -INFO - enter date of joining
+2022-10-15 07:16:30,055 - HRMS -INFO - Job Details Added Successfully
+2022-10-15 07:16:30,387 - HRMS -INFO - Job Details Added Successfully
+2022-10-15 07:16:37,948 - HRMS -INFO - Application opned Sucessfully
+2022-10-15 07:16:38,270 - HRMS -INFO - user name Entered SUccesssfully
+2022-10-15 07:16:41,187 - HRMS -INFO - Login succeSsfully
+2022-10-15 07:16:41,273 - HRMS -INFO - going to ad New Employee
+2022-10-15 07:16:50,219 - HRMS -INFO - add Employee SUccessfully
+2022-10-15 07:16:52,828 - HRMS -INFO - going to ad New Employee
+2022-10-15 07:17:07,794 - HRMS -INFO - add Employee SUccessfully
+2022-10-15 07:17:10,229 - HRMS -INFO - going to ad New Employee
+2022-10-15 07:17:18,202 - HRMS -INFO - add Employee SUccessfully
+2022-10-15 07:17:20,456 - HRMS -INFO - going to ad New Employee
+2022-10-15 07:17:27,432 - HRMS -INFO - add Employee SUccessfully
+2022-10-15 07:17:29,954 - HRMS -INFO - going to ad New Employee
+2022-10-15 07:17:36,673 - HRMS -INFO - add Employee SUccessfully
+2022-10-15 07:17:38,711 - HRMS -INFO - going to ad New Employee
+2022-10-15 07:17:45,818 - HRMS -INFO - add Employee SUccessfully
+2022-10-15 07:17:58,270 - HRMS -INFO - Application opned Sucessfully
+2022-10-15 07:17:58,777 - HRMS -INFO - Done with Username and password
+2022-10-15 07:18:12,248 - HRMS -INFO - titleVerified Succesfully
+2022-10-15 07:18:19,028 - HRMS -INFO - Application opned Sucessfully
+2022-10-15 07:18:22,816 - HRMS -INFO - login Successfully
+2022-10-15 07:19:02,829 - HRMS -INFO - Application opned Sucessfully
+2022-10-15 07:19:11,804 - HRMS -INFO - Login with postive set of data
+2022-10-15 07:19:12,408 - HRMS -INFO - PIM OPEN BY ACTION CLASS
+2022-10-15 07:19:14,449 - HRMS -INFO - Drop down handled by Select Class
+2022-10-15 07:19:16,746 - HRMS -INFO - Search box Handled with Profile firstName
+2022-10-15 07:19:19,238 - HRMS -INFO - Search button perfomed search emp will Displayed
+2022-10-15 07:19:30,034 - HRMS -INFO - EMployee details displayed
+2022-10-15 07:19:53,636 - HRMS -INFO - Application opned Sucessfully
+2022-10-15 07:20:02,314 - HRMS -INFO - login SUccessfullY
+2022-10-15 07:20:13,930 - HRMS -INFO - search employee done with first Name:
+2022-10-15 07:20:16,348 - HRMS -INFO - select image icon

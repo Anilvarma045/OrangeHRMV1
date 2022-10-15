@@ -1,21 +1,24 @@
 package com.orange.pageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import jdk.internal.org.jline.utils.Log;
+
 
 
 public class Orange_LoginPage  {
 
-	WebDriver rdriver;
+	WebDriver ldriver;
 	
-	public Orange_LoginPage(WebDriver ldriver){
+	public Orange_LoginPage(WebDriver driver){
 		
 		
-		rdriver=ldriver;
-		PageFactory.initElements(rdriver, this);	
+		ldriver=driver;
+		PageFactory.initElements(driver, this);	
 	}
 	
 	@FindBy(name="txtUserName")
@@ -39,5 +42,12 @@ public void setpassword(String password) {
 public void clicksubmit() {
 	loginbtn.click();
 }
+
+public void logoutApp() {
+	ldriver.switchTo().defaultContent();
+ldriver.findElement(By.linkText("Logout")).click();
+
+}
+
 
 }

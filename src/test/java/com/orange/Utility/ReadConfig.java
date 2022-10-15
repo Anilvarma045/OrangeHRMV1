@@ -22,6 +22,7 @@ public class ReadConfig {
 		         pro.load(fis);   
 		} catch (Exception e) {
 		System.out.println(e.getMessage());
+		e.printStackTrace();
 		}
 	}
 	
@@ -52,6 +53,29 @@ public class ReadConfig {
 	public String getiepath() {
 		String iepath=pro.getProperty("iepath");
 		return iepath;
+	}
+	public String getnewempname() {
+		String newempname=pro.getProperty("newemp");
+		return newempname;		
+	}
+	
+	public String getemplname() {
+		String newemplname=pro.getProperty("newemplastname");
+		return newemplname;
+	}
+	
+	public String getempmname() {
+		String newempmiddle=pro.getProperty("newempmname");
+		return newempmiddle;
+		
+	}
+	public String geteditname() {
+		String editemp=pro.getProperty("editemp");
+		return editemp;
+	}
+	public String getdeleteempname() {
+		String deletemp=pro.getProperty("deleteemp");
+		return deletemp;
 	}
 	//next step is to create object in BaseClass and call each method what do you need acctually
 }
