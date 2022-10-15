@@ -1,16 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="17" passed="15" failed="2" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[OrangeHRM]]>
     </line>
+    <line>
+      <![CDATA[SUcessfully Added]]>
+    </line>
+    <line>
+      <![CDATA[SUcessfully Added]]>
+    </line>
+    <line>
+      <![CDATA[SUcessfully Added]]>
+    </line>
+    <line>
+      <![CDATA[SUcessfully Added]]>
+    </line>
+    <line>
+      <![CDATA[SUcessfully Added]]>
+    </line>
+    <line>
+      <![CDATA[SUcessfully Added]]>
+    </line>
+    <line>
+      <![CDATA[SUcessfully Added]]>
+    </line>
+    <line>
+      <![CDATA[OrangeHRM]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-07-19T12:11:37 IST" name="Orange_HRM" finished-at="2022-07-19T12:11:47 IST" duration-ms="9412">
+  <suite started-at="2022-10-15T07:11:25 PDT" name="Orange_HRM" finished-at="2022-10-15T07:20:17 PDT" duration-ms="531951">
     <groups>
     </groups>
-    <test started-at="2022-07-19T12:11:37 IST" name="Test" finished-at="2022-07-19T12:11:47 IST" duration-ms="9412">
-      <class name="com.orange_hrm.testcases.TestCase001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orange_hrm.testcases.TestCase001@72035809]" started-at="2022-07-19T12:11:38 IST" name="setup" finished-at="2022-07-19T12:11:44 IST" duration-ms="6276" status="PASS">
+    <test started-at="2022-10-15T07:11:25 PDT" name="OrangeHRM Test" finished-at="2022-10-15T07:20:17 PDT" duration-ms="531951">
+      <class name="com.orange_hrm.testcases.TC_004_B_AddEmployee">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orange_hrm.testcases.TC_004_B_AddEmployee@45752059]" started-at="2022-10-15T07:13:08 PDT" name="setup" finished-at="2022-10-15T07:13:25 PDT" duration-ms="17435" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,18 +45,528 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.orange_hrm.testcases.TestCase001@72035809]" started-at="2022-07-19T12:11:44 IST" name="loginTest" finished-at="2022-07-19T12:11:47 IST" duration-ms="2953" status="PASS">
+        <test-method signature="createNewEmployee()[pri:0, instance:com.orange_hrm.testcases.TC_004_B_AddEmployee@45752059]" started-at="2022-10-15T07:13:25 PDT" name="createNewEmployee" finished-at="2022-10-15T07:13:41 PDT" duration-ms="15280" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[OrangeHRM]]>
+            </line>
+            <line>
+              <![CDATA[SUcessfully Added]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createNewEmployee -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.orange_hrm.testcases.TC_004_B_AddEmployee@45752059]" started-at="2022-10-15T07:13:41 PDT" name="teardown" finished-at="2022-10-15T07:13:41 PDT" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.orange_hrm.testcases.TC_004_B_AddEmployee -->
+      <class name="com.orange_hrm.testcases.TC_008_F_Upload_photo">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orange_hrm.testcases.TC_008_F_Upload_photo@38425407]" started-at="2022-10-15T07:19:31 PDT" name="setup" finished-at="2022-10-15T07:19:53 PDT" duration-ms="22591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="uploadimage()[pri:0, instance:com.orange_hrm.testcases.TC_008_F_Upload_photo@38425407]" started-at="2022-10-15T07:19:53 PDT" name="uploadimage" finished-at="2022-10-15T07:20:16 PDT" duration-ms="22792" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[invalid argument: File not found : E:\Accord Solutions\Anilimage.jpg
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'VARMA-PC', ip: '192.168.43.129', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1f6fb567bb3bf33c5f2d2c7ccfb3da7b, sendKeysToElement {id=121e41f2-2cc1-4bb0-b92d-9a6e6c69c15b, value=[Ljava.lang.CharSequence;@6a73910d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51252}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51252/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1f6fb567bb3bf33c5f2d2c7ccfb3da7b)] -> xpath: //input[@id='photofile']]
+Session ID: 1f6fb567bb3bf33c5f2d2c7ccfb3da7b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : E:\Accord Solutions\Anilimage.jpg
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'VARMA-PC', ip: '192.168.43.129', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1f6fb567bb3bf33c5f2d2c7ccfb3da7b, sendKeysToElement {id=121e41f2-2cc1-4bb0-b92d-9a6e6c69c15b, value=[Ljava.lang.CharSequence;@6a73910d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51252}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51252/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1f6fb567bb3bf33c5f2d2c7ccfb3da7b)] -> xpath: //input[@id='photofile']]
+Session ID: 1f6fb567bb3bf33c5f2d2c7ccfb3da7b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:113)
+at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)
+at com.orange.pageObjects.AddImagetoEmployee.setImagePath(AddImagetoEmployee.java:33)
+at com.orange_hrm.testcases.TC_008_F_Upload_photo.uploadimage(TC_008_F_Upload_photo.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadimage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.orange_hrm.testcases.TC_008_F_Upload_photo@38425407]" started-at="2022-10-15T07:20:16 PDT" name="teardown" finished-at="2022-10-15T07:20:17 PDT" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.orange_hrm.testcases.TC_008_F_Upload_photo -->
+      <class name="com.orange_hrm.testcases.TC_012_J_Add_JobTitle">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orange_hrm.testcases.TC_012_J_Add_JobTitle@40a4337a]" started-at="2022-10-15T07:12:30 PDT" name="setup" finished-at="2022-10-15T07:12:47 PDT" duration-ms="17495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createJobTitle()[pri:0, instance:com.orange_hrm.testcases.TC_012_J_Add_JobTitle@40a4337a]" started-at="2022-10-15T07:12:47 PDT" name="createJobTitle" finished-at="2022-10-15T07:13:07 PDT" duration-ms="19649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createJobTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.orange_hrm.testcases.TC_012_J_Add_JobTitle@40a4337a]" started-at="2022-10-15T07:13:07 PDT" name="teardown" finished-at="2022-10-15T07:13:08 PDT" duration-ms="932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.orange_hrm.testcases.TC_012_J_Add_JobTitle -->
+      <class name="com.orange_hrm.testcases.TC_005_I_DeleteEmployee">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orange_hrm.testcases.TC_005_I_DeleteEmployee@6a6cb05c]" started-at="2022-10-15T07:13:41 PDT" name="setup" finished-at="2022-10-15T07:14:03 PDT" duration-ms="21786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteEmployee()[pri:0, instance:com.orange_hrm.testcases.TC_005_I_DeleteEmployee@6a6cb05c]" started-at="2022-10-15T07:14:03 PDT" name="deleteEmployee" finished-at="2022-10-15T07:14:20 PDT" duration-ms="17507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployee -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.orange_hrm.testcases.TC_005_I_DeleteEmployee@6a6cb05c]" started-at="2022-10-15T07:14:20 PDT" name="teardown" finished-at="2022-10-15T07:14:21 PDT" duration-ms="1028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.orange_hrm.testcases.TC_005_I_DeleteEmployee -->
+      <class name="com.orange_hrm.testcases.TC_003_C_SearchEmployee">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orange_hrm.testcases.TC_003_C_SearchEmployee@34e9fd99]" started-at="2022-10-15T07:18:33 PDT" name="setup" finished-at="2022-10-15T07:19:03 PDT" duration-ms="29710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchEmployee()[pri:0, instance:com.orange_hrm.testcases.TC_003_C_SearchEmployee@34e9fd99]" started-at="2022-10-15T07:19:03 PDT" name="searchEmployee" finished-at="2022-10-15T07:19:30 PDT" duration-ms="26920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchEmployee -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.orange_hrm.testcases.TC_003_C_SearchEmployee@34e9fd99]" started-at="2022-10-15T07:19:30 PDT" name="teardown" finished-at="2022-10-15T07:19:31 PDT" duration-ms="1005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.orange_hrm.testcases.TC_003_C_SearchEmployee -->
+      <class name="com.orange_hrm.testcases.TC_006_D_EditEmployee">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orange_hrm.testcases.TC_006_D_EditEmployee@3c41ed1d]" started-at="2022-10-15T07:14:21 PDT" name="setup" finished-at="2022-10-15T07:14:58 PDT" duration-ms="36932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="editEmployee()[pri:0, instance:com.orange_hrm.testcases.TC_006_D_EditEmployee@3c41ed1d]" started-at="2022-10-15T07:14:58 PDT" name="editEmployee" finished-at="2022-10-15T07:15:45 PDT" duration-ms="46598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editEmployee -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.orange_hrm.testcases.TC_006_D_EditEmployee@3c41ed1d]" started-at="2022-10-15T07:15:45 PDT" name="teardown" finished-at="2022-10-15T07:15:46 PDT" duration-ms="1120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.orange_hrm.testcases.TC_006_D_EditEmployee -->
+      <class name="com.orange_hrm.testcases.TC_013_K_PostNewJobVacancey">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orange_hrm.testcases.TC_013_K_PostNewJobVacancey@6025e1b6]" started-at="2022-10-15T07:18:12 PDT" name="setup" finished-at="2022-10-15T07:18:19 PDT" duration-ms="6414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="postNewJobVacanicey()[pri:0, instance:com.orange_hrm.testcases.TC_013_K_PostNewJobVacancey@6025e1b6]" started-at="2022-10-15T07:18:19 PDT" name="postNewJobVacanicey" finished-at="2022-10-15T07:18:33 PDT" duration-ms="14181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postNewJobVacanicey -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.orange_hrm.testcases.TC_013_K_PostNewJobVacancey@6025e1b6]" started-at="2022-10-15T07:18:33 PDT" name="teardown" finished-at="2022-10-15T07:18:33 PDT" duration-ms="166" status="FAIL">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : Please correct the following
+
+- Please specify Hiring Manager
+}
+  (Session info: chrome=106.0.5249.119): Please correct the following
+
+- Please specify Hiring Manager
+
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'VARMA-PC', ip: '192.168.43.129', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [287aabe11862def839606d6039c9be47, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51173/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 287aabe11862def839606d6039c9be47]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please correct the following
+
+- Please specify Hiring Manager
+}
+  (Session info: chrome=106.0.5249.119): Please correct the following
+
+- Please specify Hiring Manager
+
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'VARMA-PC', ip: '192.168.43.129', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [287aabe11862def839606d6039c9be47, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51173/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 287aabe11862def839606d6039c9be47
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:624)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:628)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:454)
+at com.orange_hrm.testcases.BaseClass.teardown(BaseClass.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:222)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:131)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.orange_hrm.testcases.TC_013_K_PostNewJobVacancey -->
+      <class name="com.orange_hrm.testcases.TC_011_H_DDT_AddEmployees">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orange_hrm.testcases.TC_011_H_DDT_AddEmployees@702657cc]" started-at="2022-10-15T07:16:31 PDT" name="setup" finished-at="2022-10-15T07:16:37 PDT" duration-ms="6783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:com.orange_hrm.testcases.TC_011_H_DDT_AddEmployees@702657cc]" started-at="2022-10-15T07:16:37 PDT" name="login" finished-at="2022-10-15T07:16:41 PDT" duration-ms="3231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="add_multipleEMployee(java.lang.String,java.lang.String)[pri:1, instance:com.orange_hrm.testcases.TC_011_H_DDT_AddEmployees@702657cc]" started-at="2022-10-15T07:16:41 PDT" name="add_multipleEMployee" data-provider="addMultiemp" finished-at="2022-10-15T07:16:52 PDT" duration-ms="11544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[raja]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[SUcessfully Added]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- add_multipleEMployee -->
+        <test-method signature="add_multipleEMployee(java.lang.String,java.lang.String)[pri:1, instance:com.orange_hrm.testcases.TC_011_H_DDT_AddEmployees@702657cc]" started-at="2022-10-15T07:16:52 PDT" name="add_multipleEMployee" data-provider="addMultiemp" finished-at="2022-10-15T07:17:10 PDT" duration-ms="17387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manoj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tiwari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[SUcessfully Added]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- add_multipleEMployee -->
+        <test-method signature="add_multipleEMployee(java.lang.String,java.lang.String)[pri:1, instance:com.orange_hrm.testcases.TC_011_H_DDT_AddEmployees@702657cc]" started-at="2022-10-15T07:17:10 PDT" name="add_multipleEMployee" data-provider="addMultiemp" finished-at="2022-10-15T07:17:20 PDT" duration-ms="10222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Krishna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[murthy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[SUcessfully Added]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- add_multipleEMployee -->
+        <test-method signature="add_multipleEMployee(java.lang.String,java.lang.String)[pri:1, instance:com.orange_hrm.testcases.TC_011_H_DDT_AddEmployees@702657cc]" started-at="2022-10-15T07:17:20 PDT" name="add_multipleEMployee" data-provider="addMultiemp" finished-at="2022-10-15T07:17:29 PDT" duration-ms="9481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rama]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[raju]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[SUcessfully Added]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- add_multipleEMployee -->
+        <test-method signature="add_multipleEMployee(java.lang.String,java.lang.String)[pri:1, instance:com.orange_hrm.testcases.TC_011_H_DDT_AddEmployees@702657cc]" started-at="2022-10-15T07:17:29 PDT" name="add_multipleEMployee" data-provider="addMultiemp" finished-at="2022-10-15T07:17:38 PDT" duration-ms="8744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prabhas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[raju]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[SUcessfully Added]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- add_multipleEMployee -->
+        <test-method signature="add_multipleEMployee(java.lang.String,java.lang.String)[pri:1, instance:com.orange_hrm.testcases.TC_011_H_DDT_AddEmployees@702657cc]" started-at="2022-10-15T07:17:38 PDT" name="add_multipleEMployee" data-provider="addMultiemp" finished-at="2022-10-15T07:17:47 PDT" duration-ms="9242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pandey]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[SUcessfully Added]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- add_multipleEMployee -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.orange_hrm.testcases.TC_011_H_DDT_AddEmployees@702657cc]" started-at="2022-10-15T07:17:47 PDT" name="teardown" finished-at="2022-10-15T07:17:48 PDT" duration-ms="501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.orange_hrm.testcases.TC_011_H_DDT_AddEmployees -->
+      <class name="com.orange_hrm.testcases.TC_009_E_EditJob_Details">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orange_hrm.testcases.TC_009_E_EditJob_Details@54d9d12d]" started-at="2022-10-15T07:15:46 PDT" name="setup" finished-at="2022-10-15T07:16:02 PDT" duration-ms="15887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="editEmployeeJob()[pri:0, instance:com.orange_hrm.testcases.TC_009_E_EditJob_Details@54d9d12d]" started-at="2022-10-15T07:16:02 PDT" name="editEmployeeJob" finished-at="2022-10-15T07:16:30 PDT" duration-ms="28167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editEmployeeJob -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.orange_hrm.testcases.TC_009_E_EditJob_Details@54d9d12d]" started-at="2022-10-15T07:16:30 PDT" name="teardown" finished-at="2022-10-15T07:16:31 PDT" duration-ms="776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.orange_hrm.testcases.TC_009_E_EditJob_Details -->
+      <class name="com.orange_hrm.testcases.TC_10_G_AssignLeave">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orange_hrm.testcases.TC_10_G_AssignLeave@43bc63a3]" started-at="2022-10-15T07:11:26 PDT" name="setup" finished-at="2022-10-15T07:11:46 PDT" duration-ms="20238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="assignleave()[pri:0, instance:com.orange_hrm.testcases.TC_10_G_AssignLeave@43bc63a3]" started-at="2022-10-15T07:11:46 PDT" name="assignleave" finished-at="2022-10-15T07:12:27 PDT" duration-ms="40604" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="cal1_cell4"]/a"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'VARMA-PC', ip: '192.168.43.129', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3831e7aaa3961da45a26203ee9026bb6, findElement {using=xpath, value=//*[@id="cal1_cell4"]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50652}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50652/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3831e7aaa3961da45a26203ee9026bb6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="cal1_cell4"]/a"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'VARMA-PC', ip: '192.168.43.129', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3831e7aaa3961da45a26203ee9026bb6, findElement {using=xpath, value=//*[@id="cal1_cell4"]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50652}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50652/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3831e7aaa3961da45a26203ee9026bb6
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at com.orange.pageObjects.AssignLeavePage.selectToDate(AssignLeavePage.java:99)
+at com.orange_hrm.testcases.TC_10_G_AssignLeave.assignleave(TC_10_G_AssignLeave.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignleave -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.orange_hrm.testcases.TC_10_G_AssignLeave@43bc63a3]" started-at="2022-10-15T07:12:28 PDT" name="teardown" finished-at="2022-10-15T07:12:30 PDT" duration-ms="2015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.orange_hrm.testcases.TC_10_G_AssignLeave -->
+      <class name="com.orange_hrm.testcases.TC_001_A_Login">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orange_hrm.testcases.TC_001_A_Login@7c7a06ec]" started-at="2022-10-15T07:17:48 PDT" name="setup" finished-at="2022-10-15T07:17:58 PDT" duration-ms="9816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.orange_hrm.testcases.TC_001_A_Login@7c7a06ec]" started-at="2022-10-15T07:17:58 PDT" name="loginTest" finished-at="2022-10-15T07:18:12 PDT" duration-ms="13976" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[OrangeHRM]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.orange_hrm.testcases.TestCase001@72035809]" started-at="2022-07-19T12:11:47 IST" name="teardown" finished-at="2022-07-19T12:11:47 IST" duration-ms="95" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.orange_hrm.testcases.TC_001_A_Login@7c7a06ec]" started-at="2022-10-15T07:18:12 PDT" name="teardown" finished-at="2022-10-15T07:18:12 PDT" duration-ms="361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.orange_hrm.testcases.TestCase001 -->
-    </test> <!-- Test -->
+      </class> <!-- com.orange_hrm.testcases.TC_001_A_Login -->
+    </test> <!-- OrangeHRM Test -->
   </suite> <!-- Orange_HRM -->
 </testng-results>

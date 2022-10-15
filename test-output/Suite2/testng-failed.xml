@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite2]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.orange_hrm.testcases.TC_008_F_Upload_photo">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="uploadimage"/>
+        </methods>
+      </class> <!-- com.orange_hrm.testcases.TC_008_F_Upload_photo -->
+      <class name="com.orange_hrm.testcases.TC_10_G_AssignLeave">
+        <methods>
+          <include name="teardown"/>
+          <include name="assignleave"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.orange_hrm.testcases.TC_10_G_AssignLeave -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite2] -->

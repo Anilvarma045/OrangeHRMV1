@@ -1,0 +1,23 @@
+post job vacanicy:
+—----------------:
+
+
+linkText="Recruitment"          main
+  
+	linkText="Job Vacancies"    job vacanices
+
+switch to frame:
+
+click Add:
+//input[@value='Add']
+
+job title Drop: //select[@id='cmbJobTitle']
+
+Hiring Manager: //input[@id='txtHiringManagerSearch']. emp name
+
+//textarea[@id='txtDesc']   :Description
+
+
+active check box: //input[@id='active']
+
+save Button:   //input[@id='editBtn']

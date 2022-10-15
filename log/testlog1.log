@@ -1,28 +1,65 @@
-2022-07-19 10:33:10,493 [main] INFO HRMS - Application opned Sucessfully
-2022-07-19 10:33:10,885 [main] INFO HRMS - Done with Username and password
-2022-07-19 10:33:13,867 [main] INFO HRMS - titleVerified Succesfully
-2022-07-19 10:59:12,548 [main] INFO HRMS - Application opned Sucessfully
-2022-07-19 10:59:12,906 [main] INFO HRMS - Done with Username and password
-2022-07-19 10:59:14,336 [main] INFO HRMS - titleVerified Succesfully
-2022-07-19 11:11:42,141 [main] INFO HRMS - Application opned Sucessfully
-2022-07-19 11:11:42,501 [main] INFO HRMS - Done with Username and password
-2022-07-19 11:11:44,116 [main] INFO HRMS - titleVerified Succesfully
-2022-07-19 11:12:18,809 [main] INFO HRMS - Application opned Sucessfully
-2022-07-19 11:12:19,168 [main] INFO HRMS - Done with Username and password
-2022-07-19 11:12:21,420 [main] INFO HRMS - titleVerified Succesfully
-2022-07-19 11:17:33,211 [main] INFO HRMS - Application opned Sucessfully
-2022-07-19 11:19:25,514 [main] INFO HRMS - Application opned Sucessfully
-2022-07-19 11:19:25,890 [main] INFO HRMS - Done with Username and password
-2022-07-19 11:19:27,302 [main] INFO HRMS - titleVerified Succesfully
-2022-07-19 11:22:26,683 [main] INFO HRMS - Application opned Sucessfully
-2022-07-19 11:22:27,074 [main] INFO HRMS - Done with Username and password
-2022-07-19 11:22:28,379 [main] INFO HRMS - titleVerified Succesfully
-2022-07-19 11:46:52,264 [main] INFO HRMS - Application opned Sucessfully
-2022-07-19 11:46:52,561 [main] INFO HRMS - Done with Username and password
-2022-07-19 11:46:53,659 [main] INFO HRMS - titleVerified Succesfully
-2022-07-19 12:02:18,265 [main] INFO HRMS - Application opned Sucessfully
-2022-07-19 12:02:18,628 [main] INFO HRMS - Done with Username and password
-2022-07-19 12:02:21,357 [main] INFO HRMS - titleVerified Succesfully
-2022-07-19 12:11:44,314 [main] INFO HRMS - Application opned Sucessfully
-2022-07-19 12:11:44,719 [main] INFO HRMS - Done with Username and password
-2022-07-19 12:11:47,295 [main] INFO HRMS - titleVerified Succesfully
+2022-10-15 07:09:25,156 [main] INFO HRMS - Application opned Sucessfully
+2022-10-15 07:09:27,637 [main] INFO HRMS - Done with Username and password
+2022-10-15 07:09:42,634 [main] INFO HRMS - Going to Add New Employee
+2022-10-15 07:10:17,154 [main] INFO HRMS - Successfully Employee Added
+2022-10-15 07:11:46,329 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Application opned Sucessfully
+2022-10-15 07:12:00,958 [TestNG-test=OrangeHRM Test-1] INFO HRMS - login Successfully
+2022-10-15 07:12:47,725 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Application opned Sucessfully
+2022-10-15 07:12:56,708 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Successfully Loged the Application
+2022-10-15 07:13:00,066 [TestNG-test=OrangeHRM Test-1] INFO HRMS - job title page opened
+2022-10-15 07:13:07,375 [TestNG-test=OrangeHRM Test-1] INFO HRMS - new Job created Successfully
+2022-10-15 07:13:25,773 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Application opned Sucessfully
+2022-10-15 07:13:26,265 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Done with Username and password
+2022-10-15 07:13:32,622 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Going to Add New Employee
+2022-10-15 07:13:41,060 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Successfully Employee Added
+2022-10-15 07:14:03,109 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Application opned Sucessfully
+2022-10-15 07:14:06,381 [TestNG-test=OrangeHRM Test-1] INFO HRMS - login SUccessFully
+2022-10-15 07:14:18,958 [TestNG-test=OrangeHRM Test-1] INFO HRMS - searchEmployee done result displayed
+2022-10-15 07:14:20,599 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Delete of Employee failed
+2022-10-15 07:14:58,589 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Application opned Sucessfully
+2022-10-15 07:14:58,681 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Application Opend SUccessfully
+2022-10-15 07:15:17,041 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Login SUuccessfully
+2022-10-15 07:15:20,702 [TestNG-test=OrangeHRM Test-1] INFO HRMS - search with Employee firstName
+2022-10-15 07:15:23,130 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Search done select deisplayed Employee
+2022-10-15 07:15:45,194 [TestNG-test=OrangeHRM Test-1] INFO HRMS - changes happend
+2022-10-15 07:16:02,217 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Application opned Sucessfully
+2022-10-15 07:16:05,894 [TestNG-test=OrangeHRM Test-1] INFO HRMS - loging succesfuly
+2022-10-15 07:16:22,388 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Edit EMployee page opened going to enter job Details
+2022-10-15 07:16:22,511 [TestNG-test=OrangeHRM Test-1] INFO HRMS - currently handlel job job profile page
+2022-10-15 07:16:22,739 [TestNG-test=OrangeHRM Test-1] INFO HRMS - selected the Job option from Left Menu
+2022-10-15 07:16:23,020 [TestNG-test=OrangeHRM Test-1] INFO HRMS - click Edit button
+2022-10-15 07:16:23,198 [TestNG-test=OrangeHRM Test-1] INFO HRMS - select Employee status full time:permenent
+2022-10-15 07:16:23,808 [TestNG-test=OrangeHRM Test-1] INFO HRMS - enter date of joining
+2022-10-15 07:16:30,055 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Job Details Added Successfully
+2022-10-15 07:16:30,387 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Job Details Added Successfully
+2022-10-15 07:16:37,948 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Application opned Sucessfully
+2022-10-15 07:16:38,270 [TestNG-test=OrangeHRM Test-1] INFO HRMS - user name Entered SUccesssfully
+2022-10-15 07:16:41,187 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Login succeSsfully
+2022-10-15 07:16:41,273 [TestNG-test=OrangeHRM Test-1] INFO HRMS - going to ad New Employee
+2022-10-15 07:16:50,219 [TestNG-test=OrangeHRM Test-1] INFO HRMS - add Employee SUccessfully
+2022-10-15 07:16:52,828 [TestNG-test=OrangeHRM Test-1] INFO HRMS - going to ad New Employee
+2022-10-15 07:17:07,794 [TestNG-test=OrangeHRM Test-1] INFO HRMS - add Employee SUccessfully
+2022-10-15 07:17:10,229 [TestNG-test=OrangeHRM Test-1] INFO HRMS - going to ad New Employee
+2022-10-15 07:17:18,202 [TestNG-test=OrangeHRM Test-1] INFO HRMS - add Employee SUccessfully
+2022-10-15 07:17:20,456 [TestNG-test=OrangeHRM Test-1] INFO HRMS - going to ad New Employee
+2022-10-15 07:17:27,432 [TestNG-test=OrangeHRM Test-1] INFO HRMS - add Employee SUccessfully
+2022-10-15 07:17:29,954 [TestNG-test=OrangeHRM Test-1] INFO HRMS - going to ad New Employee
+2022-10-15 07:17:36,673 [TestNG-test=OrangeHRM Test-1] INFO HRMS - add Employee SUccessfully
+2022-10-15 07:17:38,711 [TestNG-test=OrangeHRM Test-1] INFO HRMS - going to ad New Employee
+2022-10-15 07:17:45,818 [TestNG-test=OrangeHRM Test-1] INFO HRMS - add Employee SUccessfully
+2022-10-15 07:17:58,270 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Application opned Sucessfully
+2022-10-15 07:17:58,777 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Done with Username and password
+2022-10-15 07:18:12,248 [TestNG-test=OrangeHRM Test-1] INFO HRMS - titleVerified Succesfully
+2022-10-15 07:18:19,028 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Application opned Sucessfully
+2022-10-15 07:18:22,816 [TestNG-test=OrangeHRM Test-1] INFO HRMS - login Successfully
+2022-10-15 07:19:02,829 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Application opned Sucessfully
+2022-10-15 07:19:11,804 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Login with postive set of data
+2022-10-15 07:19:12,408 [TestNG-test=OrangeHRM Test-1] INFO HRMS - PIM OPEN BY ACTION CLASS
+2022-10-15 07:19:14,449 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Drop down handled by Select Class
+2022-10-15 07:19:16,746 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Search box Handled with Profile firstName
+2022-10-15 07:19:19,238 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Search button perfomed search emp will Displayed
+2022-10-15 07:19:30,034 [TestNG-test=OrangeHRM Test-1] INFO HRMS - EMployee details displayed
+2022-10-15 07:19:53,636 [TestNG-test=OrangeHRM Test-1] INFO HRMS - Application opned Sucessfully
+2022-10-15 07:20:02,314 [TestNG-test=OrangeHRM Test-1] INFO HRMS - login SUccessfullY
+2022-10-15 07:20:13,930 [TestNG-test=OrangeHRM Test-1] INFO HRMS - search employee done with first Name:
+2022-10-15 07:20:16,348 [TestNG-test=OrangeHRM Test-1] INFO HRMS - select image icon

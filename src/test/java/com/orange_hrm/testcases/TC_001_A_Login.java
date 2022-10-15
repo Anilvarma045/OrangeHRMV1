@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import com.orange.pageObjects.Orange_LoginPage;
 
-public class TestCase001 extends BaseClass{
+public class TC_001_A_Login extends BaseClass{
 
 
 	@Test
