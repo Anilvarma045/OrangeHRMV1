@@ -63,3 +63,21 @@
 2022-10-15 07:20:02,314 [TestNG-test=OrangeHRM Test-1] INFO HRMS - login SUccessfullY
 2022-10-15 07:20:13,930 [TestNG-test=OrangeHRM Test-1] INFO HRMS - search employee done with first Name:
 2022-10-15 07:20:16,348 [TestNG-test=OrangeHRM Test-1] INFO HRMS - select image icon
+2022-10-15 08:59:13,669 [main] INFO HRMS - Application opned Sucessfully
+2022-10-15 08:59:14,852 [main] INFO HRMS - Done with Username and password
+2022-10-15 08:59:27,128 [main] INFO HRMS - Going to Add New Employee
+2022-10-15 08:59:44,161 [main] INFO HRMS - Successfully Employee Added
+2022-10-31 23:14:46,788 [main] INFO HRMS - Application opned Sucessfully
+2022-10-31 23:14:48,107 [main] INFO HRMS - Done with Username and password
+2022-10-31 23:14:52,183 [main] INFO HRMS - Going to Add New Employee
+2022-10-31 23:14:57,301 [main] INFO HRMS - Successfully Employee Added
+2022-10-31 23:15:04,473 [main] INFO HRMS - Application opned Sucessfully
+2022-10-31 23:15:04,961 [main] INFO HRMS - Done with Username and password
+2022-10-31 23:15:18,327 [main] INFO HRMS - titleVerified Succesfully
+2022-10-31 23:25:59,714 [main] INFO HRMS - Application opned Sucessfully
+2022-10-31 23:26:02,237 [main] INFO HRMS - Done with Username and password
+2022-10-31 23:26:11,481 [main] INFO HRMS - Going to Add New Employee
+2022-10-31 23:26:17,435 [main] INFO HRMS - Successfully Employee Added
+2022-10-31 23:26:43,112 [main] INFO HRMS - Application opned Sucessfully
+2022-10-31 23:26:43,597 [main] INFO HRMS - Done with Username and password
+2022-10-31 23:26:45,823 [main] INFO HRMS - titleVerified Succesfully

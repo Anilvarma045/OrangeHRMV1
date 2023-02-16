@@ -51,9 +51,22 @@ public class TC007_Login_DataProvider  extends BaseClass{
 		return loginData;
 		}
             	  
+	
+	@DataProvider(name="mydata")                      //data provider Declaration with name
+	public String [][] getData1() {                  // method with Return type String
+		String loginData[][]={                      //  array with Data Set's 
+			
+				{"name","Anil"},
+				{"age","25"}
+	};
+		return getData();
+	}
+	
+	
+	
               }
               
-              
+
               
               
               

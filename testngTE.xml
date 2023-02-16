@@ -6,6 +6,13 @@
 
     <classes>
       <class name="com.orange_hrm.testcases.TC_004_B_AddEmployee"/>
+       <class name="com.orange_hrm.testcases.TC_001_A_Login"/> 
+  <class name="com.orange_hrm.testcases.TC_004_B_AddEmployee"/>  
+  <class name="com.orange_hrm.testcases.TC_003_C_SearchEmployee"/> 
+  <class name="com.orange_hrm.testcases.TC_006_D_EditEmployee"/>
+  <class name="com.orange_hrm.testcases.TC_009_E_EditJob_Details"/>
+  
+  
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

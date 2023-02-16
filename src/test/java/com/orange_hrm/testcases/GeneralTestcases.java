@@ -11,15 +11,15 @@ public class GeneralTestcases {
 	ExtentReports extent;
 	ExtentTest etest;
 	
-	public void login() {
-		driver.findElement(By.name("txtUsername")).sendKeys(username);
-		driver.findElement(By.name("txtPassword")).sendKeys(password);
-		driver.findElement(By.name("Submit")).click();
-	 
-		extent=new ExtentReports("",true);
-	
-	}
-	
-	
+//	public void login() {
+//		driver.findElement(By.name("txtUsername")).sendKeys(username);
+//		driver.findElement(By.name("txtPassword")).sendKeys(password);
+//		driver.findElement(By.name("Submit")).click();
+//	 
+//		extent=new ExtentReports("",true);
+//	
+//	}
+//	
+//	
 
 }
